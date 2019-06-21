@@ -15,19 +15,19 @@ BuildArch: noarch
 Vendor: Altinity (Vladislav Klimenko <sunsingerus@gmail.com>)
 Packager: Altinity (Vladislav Klimenko <sunsingerus@gmail.com>)
 Url: https://github.com/altinity/clickhouse-mysql-data-reader
-Requires: python34
-Requires: python34-devel
-Requires: python34-libs
-Requires: python34-pip
-Requires: python34-setuptools
+Requires: python36
+Requires: python36-devel
+Requires: python36-libs
+Requires: python36-pip
+Requires: python36-setuptools
 Requires: clickhouse-client
 Requires: mysql-devel
 Requires: gcc
-Buildrequires: python34
-Buildrequires: python34-devel
-Buildrequires: python34-libs
-Buildrequires: python34-pip
-Buildrequires: python34-setuptools
+Buildrequires: python36
+Buildrequires: python36-devel
+Buildrequires: python36-libs
+Buildrequires: python36-pip
+Buildrequires: python36-setuptools
 
 %description
 MySQL to ClickHouse data migrator
